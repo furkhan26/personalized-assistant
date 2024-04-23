@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Assistant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Furkhan ~ Personal Assistant</h1>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">Speak to Your Assistant</h4>
+                    </div>
+                    <div class="card-body">
+                        <button id="askAssistantBtn" class="btn btn-primary mb-3">Ask Assistant</button>
+                        <div class="form-group">
+                            <video id="video" width="100%" height="auto" autoplay></video>
+                            <canvas id="canvas" style="display: none;"></canvas>
+                        </div>
+                        <div id="speakNowPrompt" style="display: none;">
+                            <p>Speak Now...</p>
+                        </div>
+                        <hr>
+                        <h5>Response:</h5>
+                        <p id="response"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

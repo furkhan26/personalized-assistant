@@ -1,0 +1,170 @@
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:root:Detected emotion: Happy
+INFO:root:Listening...
+INFO:root:Speech Recognized: hello hello
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Happy
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Neutral
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:openai:error_code=model_not_found error_message='The model `text-davinci-002` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:openai:error_code=model_not_found error_message='The model `text-davinci` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+INFO:root:Speech Recognized: Annabelle hello hello hello hello
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:root:Detected emotion: Surprise
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Angry
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brownie
+INFO:root:Sentiment Label: Neutral
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:52:52] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: how to make a brown
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:04] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:18] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:33] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: I'm excited to go to party show me how can I dress well
+INFO:root:Sentiment Label: Slightly Happy
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:48] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:53:49] "POST /generate HTTP/1.1" 200 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:54:46] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: show me how can I dress for a party event tomorrow
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:54:55] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:54:57] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'B:\\AI-Assist\\src\\app.py', reloading
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:56:59] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:57:03] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:57:03] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'B:\\AI-Assist\\src\\app.py', reloading
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:59:30] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: I have a party tomorrow help me out with the selecting a pair of clothes for tomorrow evening
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:59:46] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 06:59:49] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'B:\\AI-Assist\\src\\app.py', reloading
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:00:59] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: help me out making a brownie show me step-by-step procedure to make it
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:01:10] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:01:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'B:\\AI-Assist\\src\\app.py', reloading
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:02:50] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: I'm making a brownie so show me step-by-step procedure to make it
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:03:00] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 07:03:03] "POST /generate HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: show me step by step procedure to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Listening...
+INFO:root:Speech Recognized: show me step by step closer to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+INFO:root:Speech Recognized: Google show me step by step procedure to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Detected emotion: Sad
+INFO:root:Listening...
+INFO:root:Speech Recognized: show me step by step procedure to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:35:31] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:35:37] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:36:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:36:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:36:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:36:46] "POST /generate HTTP/1.1" 200 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:38:22] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: show me step-by-step procedure to make a brownie
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:38:32] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:42:14] "POST /generate HTTP/1.1" 200 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:42:35] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:09] "GET /static/js/script.js HTTP/1.1" 200 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:19] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: I'm having a headache from last 2 days and
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:28] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:root:Speech Recognized: I'm having a headache so show me what can I try at home so that can be reduced I'm having a headache from last 2 days and please help me out you know what I can try at home so it can be
+INFO:root:Sentiment Label: Neutral
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:49] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:43:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:45:38] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:46:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:46:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:46:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:47:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:47:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:47:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:47:28] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+ERROR:root:Speech Recognition Error: Could not understand audio.
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 08:47:33] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'B:\\personalized-assistant\\src\\app.py', reloading
+ERROR:root:An error occurred: Failed to capture frame from the camera
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 09:10:29] "POST /detect_emotion HTTP/1.1" 200 -
+INFO:root:Listening...
+INFO:root:Speech Recognized: good morning
+INFO:root:Sentiment Label: Happy
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 09:10:34] "POST /detect_speech_emotion HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 09:14:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'B:\\personalized-assistant\\src\\camera_detect.py', reloading
